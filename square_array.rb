@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+returns = []
+array.each{|et| returns.push( et * et )}
+returns
 end
